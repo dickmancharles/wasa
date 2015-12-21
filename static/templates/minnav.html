@@ -1,0 +1,5 @@
+{% block style %}<style type=text/css>
+a, a:focus, a:hover {
+	color: #e52d27;
+	};
+</style>{% endblock %}<ul class="nav nav-tabs" role=tablist style="padding-left: 0px; border-bottom: None;"><li><a href="{% url 'dashboard' %}">Dashboard</a></li><li><a href="{% url 'document' %}">Document Center</a></li><li><a href="{% url 'transactions' %}">Transactions</a></li><li><a href="{% url 'myaccount' %}">My Account</a></li><li><a href="{% url 'helpcenter' %}">Help Center</a></li><li><a href="{% url 'repair' %}">Request a Repair</a></li><li><a href="{% url 'salesreport' %}">Sales Report</a></li><li><a href="{% url 'account_logout' %}" class="btn btn-defualt" role=button>Log Out</a></li></ul>

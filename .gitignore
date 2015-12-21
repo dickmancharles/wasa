@@ -1,0 +1,74 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+defaults write com.apple.finder AppleShowAllFiles 1 && killall Finder
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# DJANGO APP 
+DS_Store
+db.sqlite3
+wasa/tenants/migrations/*
+wasa/pages/migrations/*
+wasa/members/migrations/*
+wasa/documents/migrations/*
+wasa/contact/migrations/*
+wasa/checkout/migrations/*
+static/media/documents/*
+static/media/resumes/*
+static/media/members/*
+bin/
+include/
+lib/
+

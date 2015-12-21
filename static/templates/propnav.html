@@ -1,0 +1,5 @@
+{% block style %}<style type=text/css>
+ul a, a:focus, a:hover {
+	color: #e52d27;
+	};
+</style>{% endblock %}<section data-ng-controller="TabController as tab"><ul class="nav nav-tabs" role=tablist id=prop-nav><li ng-class="{ active: tab.isSet(1) }"><a ng-click=tab.setTab(1)>Overview</a></li><li ng-class="{ active: tab.isSet(2) }"><a ng-click=tab.setTab(2)>Site Plans</a></li><li ng-class="{ active: tab.isSet(3) }"><a ng-click=tab.setTab(3)>Photos</a></li><li ng-class="{ active: tab.isSet(4) }"><a ng-click=tab.setTab(4)>Documents</a></li></ul></section>
